@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"ticker\": \"RCIs\", \"amount\": 1}",
+							"raw": "{\"ticker\": \"MTKs\", \"amount\": 1}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -25,9 +25,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/send",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -55,9 +55,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/create/fixed",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -86,9 +86,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/create/managed",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -117,9 +117,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/create/crowdsale",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -148,9 +148,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/crowdsale/close",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -170,7 +170,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"ticker\": \"RCIs\", \"amount\": 1000}",
+							"raw": "{\"ticker\": \"MTKs\", \"amount\": 1000}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -179,9 +179,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/managed/grant",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -201,7 +201,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"ticker\": \"RCIs\", \"amount\": 1000}",
+							"raw": "{\"ticker\": \"MTKs\", \"amount\": 1000}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -210,9 +210,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/managed/revoke",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -241,9 +241,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/multisig",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -273,7 +273,7 @@
 							"raw": "http://92.205.236.136:4321/v2/payload/dex/sell",
 							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -302,9 +302,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/dex/accept",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -335,7 +335,7 @@
 							"raw": "http://92.205.236.136:4321/v2/payload/trade/create",
 							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -364,9 +364,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/trade/cancel/price",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -396,9 +396,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/trade/cancel/pair",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -428,9 +428,9 @@
 						},
 						"url": {
 							"raw": "http://92.205.236.136:4321/v2/payload/trade/cancel/all",
-							"protocol": "http",
+							"protocol": "https",
 							"host": [
-								"rciexplorer",
+								"mtkexplorer",
 								"io"
 							],
 							"path": [
@@ -453,9 +453,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/latest",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -473,9 +473,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/transactions?page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -499,9 +499,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/blocks?page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -525,9 +525,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/block/0ce0521d40bda3c59b58ffb82739eac4e91fcf111b96ea825820316104a19287",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -546,9 +546,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/block/0ce0521d40bda3c59b58ffb82739eac4e91fcf111b96ea825820316104a19287/transactions?page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -574,9 +574,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/transaction/cd7cc99707cbbf0017e33d8e63e75bcfa80ce0a539032455ea672cd69afaaca6",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -594,16 +594,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://92.205.236.136:4321/v2/history/g3NgwSNZ9sxbuvre7wmaWub64WSerUuHdk?page=1",
-					"protocol": "http",
+					"raw": "http://92.205.236.136:4321/v2/history/mezy3uiPRCm8RhV2LNdy4WNdiC5qVDMPBU?page=1",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
 						"v2",
 						"history",
-						"g3NgwSNZ9sxbuvre7wmaWub64WSerUuHdk"
+						"mezy3uiPRCm8RhV2LNdy4WNdiC5qVDMPBU"
 					],
 					"query": [
 						{
@@ -621,16 +621,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://92.205.236.136:4321/v2/balance/g3NgwSNZ9sxbuvre7wmaWub64WSerUuHdk",
-					"protocol": "http",
+					"raw": "http://92.205.236.136:4321/v2/balance/mezy3uiPRCm8RhV2LNdy4WNdiC5qVDMPBU",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
 						"v2",
 						"balance",
-						"g3NgwSNZ9sxbuvre7wmaWub64WSerUuHdk"
+						"mezy3uiPRCm8RhV2LNdy4WNdiC5qVDMPBU"
 					]
 				}
 			},
@@ -643,9 +643,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/chart/transactions",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -664,9 +664,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/chart/masternodes",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -684,16 +684,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://92.205.236.136:4321/v2/token/RCIs",
-					"protocol": "http",
+					"raw": "http://92.205.236.136:4321/v2/token/MTKs",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
 						"v2",
 						"token",
-						"RCIs"
+						"MTKs"
 					]
 				}
 			},
@@ -705,16 +705,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://92.205.236.136:4321/v2/token/RCIs/transfers?page=1",
-					"protocol": "http",
+					"raw": "http://92.205.236.136:4321/v2/token/MTKs/transfers?page=1",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
 						"v2",
 						"token",
-						"RCIs",
+						"MTKs",
 						"transfers"
 					],
 					"query": [
@@ -734,9 +734,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/tokens?page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -760,9 +760,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/nft?page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -785,16 +785,16 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://92.205.236.136:4321/v2/holders/RCIs?page=1",
-					"protocol": "http",
+					"raw": "http://92.205.236.136:4321/v2/holders/MTKs?page=1",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
 						"v2",
 						"holders",
-						"RCIs"
+						"MTKs"
 					],
 					"query": [
 						{
@@ -813,9 +813,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/trade/offers?open=false&page=1&ticker=USDT",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -848,9 +848,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/trade/offer/cd7cc99707cbbf0017e33d8e63e75bcfa80ce0a539032455ea672cd69afaaca6",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -870,9 +870,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/trade/orders?open=false&ticker=USDT&desired=BTC&page=1",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [
@@ -909,9 +909,9 @@
 				"header": [],
 				"url": {
 					"raw": "http://92.205.236.136:4321/v2/trade/order/cd7cc99707cbbf0017e33d8e63e75bcfa80ce0a539032455ea672cd69afaaca6",
-					"protocol": "http",
+					"protocol": "https",
 					"host": [
-						"rciexplorer",
+						"mtkexplorer",
 						"io"
 					],
 					"path": [

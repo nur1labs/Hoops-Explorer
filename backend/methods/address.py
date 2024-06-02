@@ -12,7 +12,7 @@ class Address():
 
         if data["error"] is None:
             for token in data["result"]:
-                if token["tokenName"] == "RCIS":
+                if token["tokenName"] == "MTK":
                     received = token["received"]
                     balance = token["balance"]
                     locked = token["locked"]

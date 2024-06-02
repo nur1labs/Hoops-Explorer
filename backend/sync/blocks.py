@@ -386,7 +386,7 @@ def process_token_transactions(transfer_data, created, transaction, height):
 
         if result["action"] != "cancel":
             amount = float(result["amount"])
-            price = round(amount / float(result["rcidesired"]), 8)
+            price = round(amount / float(result["mtkdesired"]), 8)
             fee = float(result["feerequired"])
 
             offer = DexOffer(**{
@@ -673,8 +673,8 @@ def sync_blocks():
 
                 amount = utils.amount(vout["value"])
                 if height <= REDUCTION_HEIGHT:
-                    #amount = round(amount / 1000, DECIMALS)
-                    amount = round(amount, DECIMALS)
+                    amount = round(amount / 1000, DECIMALS)
+                    #amount = round(amount, DECIMALS)
 
                 # ToDo: Add token support here
                 currency = CURRENCY

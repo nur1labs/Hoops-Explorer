@@ -145,8 +145,8 @@ class Script:
     @classmethod
     def opcode_name(cls, opcode):
         if OpCodes.OP_0 < opcode < OpCodes.OP_PUSHDATA1:
-            return f'OP_{opcode:r}'
+            return f'OP_{opcode:m}'
         try:
             return OpCodes.whatis(opcode)
         except KeyError:
-            return f'OP_UNKNOWN:{opcode:r}'
+            return f'OP_UNKNOWN:{opcode:m}'

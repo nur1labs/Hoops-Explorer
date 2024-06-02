@@ -245,15 +245,15 @@ def token_info(ticker):
             "data": "",
             "divisible": True,
             "holders": holders,
-            "issuer": "gNs8TQk8PL1uE3od7CbiBncSwAxDT1ncDV",
+            "issuer": "mezy3uiPRCm8RhV2LNdy4WNdiC5qVDMPBU",
             "managed": False,
             "name": "Minetok",
             "ticker": "MTK",
             "nft": False,
             "subcategory": "",
             "supply": utils.round_amount(supply),
-            "transaction": "7877d76a95eb0f630c52ca5be6bc40a1e2d25f96319e2f44d430db6c90418e0f",
-            "url": "http://203.194.113.112:4321"
+            "transaction": "1af9c62ffdf8b1656d9d3addb77f2af1368ee4da92314e0cc7005895392073c2",
+            "url": "http://92.205.236.136:4321"
         }
 
     if not (token := Token.get(ticker=ticker)):
