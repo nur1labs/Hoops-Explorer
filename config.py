@@ -4,7 +4,7 @@ rid = "rci-explorer"
 endpoint = "http://127.0.0.1:3031/"
 secret = "im love charlotte"
 #host = "http://20.243.210.93/"
-host = "92.205.236.136 "
+host = "92.205.236.136"
 debug = True
 port = 4321
 
