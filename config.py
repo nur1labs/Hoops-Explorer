@@ -10,6 +10,6 @@ port = 4321
 
 db_params = {
     "provider": "sqlite",
-    "filename": "/home/soradev/pyex/mtk.db",
+    "filename": "/home/soradev/minetok_explorer/mtk.db",
     "create_db": True
 }
