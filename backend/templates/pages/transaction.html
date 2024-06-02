@@ -35,7 +35,7 @@
 						<tr>
 							<td>Amount Transferred</td>
 							<td>
-								<span>{{ transaction.amount|amount }}</span> <b>RCI</b>
+								<span>{{ transaction.amount|amount }}</span> <b>MTK</b>
 							</td>
 						</tr>
 						<tr>
@@ -45,7 +45,7 @@
 						{% if transaction.fee > 0 %}
 							<tr>
 								<td>Fee</td>
-								<td>{{ transaction.fee|amount }} <b>RCI</b></td>
+								<td>{{ transaction.fee|amount }} <b>MTK</b></td>
 							</tr>
 						{% endif %}
 
@@ -53,21 +53,21 @@
 							{% if transaction.block.reward > 0 %}
 								<tr>
 									<td>Reward</td>
-									<td>{{ transaction.block.reward|amount }} RCI</td>
+									<td>{{ transaction.block.reward|amount }} MTK</td>
 								</tr>
 							{% endif %}
 
 							{% if transaction.block.mn > 0 %}
 								<tr>
 									<td>Masternode</td>
-									<td>{{ transaction.block.mn|amount }} RCI</td>
+									<td>{{ transaction.block.mn|amount }} MTK</td>
 								</tr>
 							{% endif %}
 
 							{% if transaction.block.mn > 0 %}
 								<tr>
 									<td>Dev fund</td>
-									<td>{{ transaction.block.dev|amount }} RCI</td>
+									<td>{{ transaction.block.dev|amount }} MTK</td>
 								</tr>
 							{% endif %}
 

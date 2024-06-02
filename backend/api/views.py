@@ -232,7 +232,7 @@ def balances(address):
 @blueprint.route("/token/<string:ticker>", methods=["GET"])
 @orm.db_session
 def token_info(ticker):
-    if ticker == "RCI":
+    if ticker == "MTK":
         supply = StatsService.get_by_key("supply").value
 
         holders = Balance.select(
@@ -247,8 +247,8 @@ def token_info(ticker):
             "holders": holders,
             "issuer": "gNs8TQk8PL1uE3od7CbiBncSwAxDT1ncDV",
             "managed": False,
-            "name": "RaffahCoin",
-            "ticker": "RCI",
+            "name": "Minetok",
+            "ticker": "MTK",
             "nft": False,
             "subcategory": "",
             "supply": utils.round_amount(supply),

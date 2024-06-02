@@ -11,7 +11,7 @@
 							{{ vin.address.address }}
 						</a>
 						<div>
-							<b>{{ vin.amount|amount }} RCI</b>
+							<b>{{ vin.amount|amount }} MTK</b>
 						</div>
 					</li>
 				{% endfor %}
@@ -27,7 +27,7 @@
 						{{ vout.address.address }}
 					</a>
 					<div>
-						<b>{{ vout.amount|amount }} RCI</b>
+						<b>{{ vout.amount|amount }} MTK</b>
 					</div>
 				</li>
 			{% endfor %}
@@ -36,7 +36,7 @@
 				<li>
 					<span>Fee:</span>
 					<div>
-						<b>{{ transaction.fee|amount }} RCI</b>
+						<b>{{ transaction.fee|amount }} MTK</b>
 					</div>
 				</li>
 			{% endif %}
