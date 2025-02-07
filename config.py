@@ -10,6 +10,6 @@ port = 4321
 
 db_params = {
     "provider": "sqlite",
-    "filename": "/root/hoops_explorer/hoops.db",
+    "filename": "/root/coins/hoops_explorer/hoops.db",
     "create_db": True
 }
